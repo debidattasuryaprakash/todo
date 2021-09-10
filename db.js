@@ -8,7 +8,7 @@ module.exports = async () => {
             useUnifiedTopology: true,
         };
         await mongoose.connect(
-            "mongodb+srv://debidatta:<csrlSuper23>@cluster0.iad3y.mongodb.net/todo?retryWrites=true&w=majority",
+            "mongodb+srv://debidatta:csrlSuper23@cluster0.iad3y.mongodb.net/todo?retryWrites=true&w=majority",
             connectionParams
         );
         console.log("Connected to database.");
